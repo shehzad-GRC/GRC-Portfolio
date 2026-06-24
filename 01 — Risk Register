@@ -1,0 +1,95 @@
+# ⚠️ 01 — Risk Register
+
+> **Framework:** NIST CSF &nbsp;|&nbsp; **Scenario:** 50-person SaaS Startup &nbsp;|&nbsp; **Risks:** 10 &nbsp;|&nbsp; **Format:** Excel with Heatmap
+
+---
+
+## Overview
+
+This risk register documents **10 identified risks** for a fictional 50-person SaaS company storing customer financial data. It follows the industry-standard **Likelihood × Impact** methodology aligned to the NIST Cybersecurity Framework.
+
+The artifact demonstrates the full risk lifecycle that a GRC analyst manages: threat identification → inherent scoring → control mapping → residual scoring → treatment assignment → risk ownership.
+
+---
+
+## Files in This Folder
+
+| File | Description |
+|---|---|
+| `Risk-Register-SaaS-v1.0.xlsx` | Main risk register with scoring, control mapping, and color-coded heatmap |
+| `Risk-Register-Methodology.md` | Detailed scoring definitions and methodology explanation |
+
+---
+
+## Risk Summary
+
+| Rating | Score Range | Count |
+|---|---|---|
+| 🔴 Critical | 20–25 | 1 |
+| 🔴 High | 15–19 | 3 |
+| 🟠 Medium | 8–14 | 4 |
+| 🟡 Low | 1–7 | 2 |
+
+---
+
+## Full Risk Register
+
+| # | Risk Description | Category | Likelihood | Impact | Inherent Score | Control Type | Treatment | Residual Score |
+|---|---|---|---|---|---|---|---|---|
+| 01 | Phishing attack leading to account takeover | Protect | 4 | 5 | **20 🔴** | Preventive | Mitigate | 8 |
+| 02 | No formal employee offboarding process | Protect | 4 | 4 | **16 🔴** | Preventive | Mitigate | 6 |
+| 03 | S3 bucket misconfiguration exposing customer data | Protect | 3 | 5 | **15 🔴** | Preventive | Mitigate | 6 |
+| 04 | Ransomware attack encrypting company data | Recover | 3 | 5 | **15 🔴** | Detective | Transfer | 9 |
+| 05 | Third-party vendor breach | Identify | 3 | 4 | **12 🟠** | Preventive | Mitigate | 6 |
+| 06 | Admin privilege misuse | Protect | 3 | 4 | **12 🟠** | Detective | Mitigate | 5 |
+| 07 | Unpatched vulnerabilities in production | Protect | 3 | 3 | **9 🟠** | Preventive | Mitigate | 4 |
+| 08 | No disaster recovery plan | Recover | 2 | 5 | **10 🟠** | Corrective | Mitigate | 6 |
+| 09 | Cloud provider outage | Recover | 2 | 4 | **8 🟡** | Corrective | Accept | 8 |
+| 10 | Insider threat — unauthorized data access | Detect | 2 | 4 | **8 🟡** | Detective | Mitigate | 4 |
+
+---
+
+## Methodology
+
+### Scoring Formula
+```
+Inherent Risk Score = Likelihood (1–5) × Impact (1–5)
+Residual Risk Score = Re-scored after controls are applied
+```
+
+### Likelihood Scale
+| Score | Definition |
+|---|---|
+| 1 | Very Unlikely — once every 5+ years |
+| 2 | Unlikely — once every 2–5 years |
+| 3 | Possible — once per year |
+| 4 | Likely — multiple times per year |
+| 5 | Very Likely — near-certain / ongoing threat |
+
+### Impact Scale
+| Score | Definition |
+|---|---|
+| 1 | Negligible — no material impact |
+| 2 | Minor — limited operational disruption |
+| 3 | Moderate — measurable financial or reputational impact |
+| 4 | Significant — major data breach or regulatory event |
+| 5 | Catastrophic — business-ending or severe regulatory penalty |
+
+### Risk Treatment Options
+| Treatment | When Used |
+|---|---|
+| **Mitigate** | Implement controls to reduce likelihood or impact |
+| **Accept** | Risk level is within tolerance; cost of control exceeds benefit |
+| **Transfer** | Shift financial risk via insurance or contractual terms |
+| **Avoid** | Eliminate the activity that creates the risk |
+
+### Control Types
+| Type | Definition |
+|---|---|
+| **Preventive** | Stops the risk event from occurring (e.g., MFA, access controls) |
+| **Detective** | Identifies when risk event has occurred (e.g., logging, SIEM alerts) |
+| **Corrective** | Reduces impact after a risk event (e.g., backup restoration, IR plan) |
+
+---
+
+*Artifact created June 2026 · Scenario is fictional · Methodology based on NIST CSF and industry GRC practice*
