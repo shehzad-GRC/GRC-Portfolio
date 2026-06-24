@@ -1,0 +1,89 @@
+# 📋 02 — Security Policies
+
+> **Framework:** SOC 2 Trust Service Criteria &nbsp;|&nbsp; **Documents:** 2 &nbsp;|&nbsp; **Format:** PDF with version control
+
+---
+
+## Overview
+
+Two professional security policies authored to industry format and aligned to SOC 2 Trust Service Criteria. These are the exact types of documents an auditor requests during a SOC 2 evidence collection period — and the exact documents a GRC analyst is responsible for writing, maintaining, and enforcing.
+
+---
+
+## Documents
+
+| Document | Policy ID | Version | Effective Date | SOC 2 Mapping | Status |
+|---|---|---|---|---|---|
+| Acceptable Use Policy | AUP-001 | v1.0 | June 2026 | CC6.1 | ✅ Active |
+| Password Policy | PWD-001 | v1.0 | June 2026 | CC6.6 | ✅ Active |
+
+---
+
+## Files in This Folder
+
+| File | Description |
+|---|---|
+| `AUP-001-Acceptable-Use-Policy-v1.0.pdf` | Acceptable Use Policy — full PDF |
+| `PWD-001-Password-Policy-v1.0.pdf` | Password Policy — full PDF |
+
+---
+
+## Policy Format Standard
+
+Every policy in this portfolio follows this professional structure:
+
+| Section | What It Contains |
+|---|---|
+| **1. Purpose** | Why the policy exists and what it protects |
+| **2. Scope** | Who and what the policy applies to |
+| **3. Policy Statements** | The actual rules and requirements |
+| **4. Prohibited Activities** | Explicit list of what is not allowed |
+| **5. Responsibilities** | Who owns, enforces, and complies with the policy |
+| **6. Enforcement** | Consequences for non-compliance |
+| **7. Review Cycle** | How often the policy is reviewed and updated |
+| **8. Version History** | Document change log with dates and approver |
+
+---
+
+## AUP-001 — Acceptable Use Policy
+
+**SOC 2 Mapping:** CC6.1 — Logical Access Security
+**Purpose:** Define acceptable use of company-owned technology assets and data
+
+**Key Policy Statements:**
+- All company-owned devices must be used primarily for business purposes
+- Personal use is permitted within reasonable limits and must not interfere with business operations
+- Employees must not install unauthorized software or access unauthorized systems
+- Company data must not be stored on personal devices or unauthorized cloud services
+- All use of company assets is subject to monitoring
+
+**Prohibited Activities include:**
+- Accessing, downloading, or distributing illegal content
+- Sharing login credentials with any other person
+- Using company systems to conduct personal business or side activities
+- Bypassing security controls or attempting to access unauthorized systems
+- Connecting personal devices to the internal network without IT approval
+
+---
+
+## PWD-001 — Password Policy
+
+**SOC 2 Mapping:** CC6.6 — Logical Access through Transmission Mediums
+**Purpose:** Establish minimum password standards to protect system access
+
+**Key Requirements:**
+
+| Requirement | Standard |
+|---|---|
+| Minimum length | 12 characters |
+| Complexity | Uppercase + lowercase + number + special character |
+| Rotation period | Every 90 days for privileged accounts; 180 days for standard |
+| Password reuse | Last 12 passwords cannot be reused |
+| MFA | Required for all remote access and privileged accounts |
+| Shared accounts | Prohibited — every user must have a unique credential |
+| Password manager | Recommended for all employees |
+| Failed login lockout | Account locked after 5 consecutive failed attempts |
+
+---
+
+*Artifact created June 2026 · Scenario is fictional · Aligned to SOC 2 TSC CC6.1 and CC6.6*
