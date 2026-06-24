@@ -1,0 +1,91 @@
+# 🔗 03 — Vendor Risk Assessment
+
+> **Framework:** ISO 27001 &nbsp;|&nbsp; **Questions:** 20 across 5 domains &nbsp;|&nbsp; **Output:** Low / Medium / High risk rating
+
+---
+
+## Overview
+
+A professional 20-question vendor security questionnaire for evaluating third-party vendors before granting access to company systems or customer data. Includes a completed sample assessment with full risk rating narrative.
+
+Third-party vendor risk is one of the fastest-growing threat vectors — vendors with weak security postures represent a significant risk to any organization's compliance and data protection program. This questionnaire operationalizes that risk evaluation process.
+
+---
+
+## Files in This Folder
+
+| File | Description |
+|---|---|
+| `Vendor-Risk-Questionnaire-v1.0.xlsx` | Blank questionnaire template — ready to send to any vendor |
+| `Sample-Vendor-Assessment-Completed.pdf` | Sample completed assessment with risk rating and findings narrative |
+
+---
+
+## Questionnaire Domains
+
+### 🔐 Domain 1 — Security Controls (6 questions)
+
+| # | Question | Why It Matters |
+|---|---|---|
+| 1.1 | Do you enforce MFA for all users accessing systems that process our data? | MFA is the single most effective control against credential compromise |
+| 1.2 | Is data encrypted in transit (TLS 1.2+) and at rest (AES-256)? | Encryption protects data confidentiality if systems are breached |
+| 1.3 | How frequently do you conduct penetration testing? Who performs it? | External pen tests validate security posture independently |
+| 1.4 | What is your patch management cadence for critical vulnerabilities? | Unpatched systems are the #1 attack surface for ransomware |
+| 1.5 | Have you experienced a security breach in the last 3 years? If yes, describe. | Breach history indicates actual security effectiveness |
+| 1.6 | Do you maintain a formal vulnerability management program? | Ongoing vuln management is required by SOC 2 and ISO 27001 |
+
+---
+
+### 🗄️ Domain 2 — Data Handling (4 questions)
+
+| # | Question | Why It Matters |
+|---|---|---|
+| 2.1 | In which countries is our data stored and processed? | Data residency affects GDPR, HIPAA, and regulatory compliance |
+| 2.2 | What is your data retention policy for customer data? | Excessive retention increases breach exposure and regulatory risk |
+| 2.3 | Who within your organization can access our data? | Access minimization is a core zero-trust principle |
+| 2.4 | How is our data securely deleted at contract termination? | Data not properly deleted creates long-tail breach risk |
+
+---
+
+### ✅ Domain 3 — Compliance Certifications (4 questions)
+
+| # | Question | Why It Matters |
+|---|---|---|
+| 3.1 | Do you hold a current SOC 2 Type II report? Can you provide it? | SOC 2 Type II is the gold standard for SaaS vendor assurance |
+| 3.2 | Are you ISO/IEC 27001 certified? If yes, provide certificate. | ISO 27001 demonstrates a formal ISMS is in place |
+| 3.3 | If you process health data, are you HIPAA compliant? | HIPAA compliance is legally required for healthcare data |
+| 3.4 | Do all employees complete annual security awareness training? | Human error is the #1 cause of breaches — training mitigates it |
+
+---
+
+### 🔄 Domain 4 — Business Continuity (3 questions)
+
+| # | Question | Why It Matters |
+|---|---|---|
+| 4.1 | Do you have a documented and tested Business Continuity Plan? | A BCP proves the vendor can maintain service during disruptions |
+| 4.2 | What are your SLA uptime commitments and historical uptime? | Uptime SLAs define vendor accountability |
+| 4.3 | How frequently is your Disaster Recovery plan tested? | Untested DR plans frequently fail when actually needed |
+
+---
+
+### ⚖️ Domain 5 — Legal & Governance (3 questions)
+
+| # | Question | Why It Matters |
+|---|---|---|
+| 5.1 | Do you carry cyber liability insurance? What is the coverage limit? | Insurance provides financial recourse if the vendor causes a breach |
+| 5.2 | Are you willing to sign a Data Processing Agreement (DPA)? | DPAs establish legal data handling obligations under GDPR/CCPA |
+| 5.3 | Do your subcontractors and sub-processors meet the same security standards? | Fourth-party risk is an extension of third-party risk |
+
+---
+
+## Risk Rating Methodology
+
+| Score Range | Rating | Action Required |
+|---|---|---|
+| 85–100 | 🟢 **Low** | Approve vendor; standard annual review |
+| 65–84 | 🟡 **Medium** | Approve with conditions; remediation plan required within 60 days |
+| 0–64 | 🔴 **High** | Do not approve until critical findings remediated; re-assess |
+
+---
+
+*Artifact created June 2026 · Scenario is fictional · Aligned to ISO/IEC 27001:2022 and SOC 2 vendor management requirements*
