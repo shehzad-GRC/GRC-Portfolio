@@ -41,10 +41,10 @@ I am an aspiring **GRC Analyst** specializing in Governance, Risk & Compliance. 
 ## 📁 Portfolio Artifacts
 
 | # | Artifact | Framework | What It Demonstrates |
-|---|---|---|---|
-| [01]([./01-Risk-Register/](https://github.com/shehzad-GRC/GRC-Portfolio/blob/34f6743c27a5888f26a3e2da14ef38ffc2edf233/01%20%E2%80%94%20Risk%20Register)) | ⚠️ Risk Register | NIST CSF | Threat identification, likelihood × impact scoring, control mapping, residual risk, treatment assignment |
-| [02](./02-Security-Policies/) | 📋 Security Policies | SOC 2 TSC | AUP + Password Policy authored to audit-ready standard |
-| [03](./03-Vendor-Risk-Assessment/) | 🔗 Vendor Risk Assessment | ISO 27001 | 20-question third-party security questionnaire across 5 domains |
+|---|--]-|---|---|
+| [01]([./01-Risk-Register/(https://github.com/shehzad-GRC/GRC-Portfolio/blob/34f6743c27a5888f26a3e2da14ef38ffc2edf233/01%20%E2%80%94%20Risk%20Register)) | ⚠️ Risk Register | NIST CSF | Threat identification, likelihood × impact scoring, control mapping, residual risk, treatment assignment |
+| [02](https://github.com/shehzad-GRC/GRC-Portfolio/blob/61787f6a3f2ad8073b7c72ec2640b012644e2d06/02%20%E2%80%94%20Security%20Policies) | 📋 Security Policies | SOC 2 TSC | AUP + Password Policy authored to audit-ready standard |
+| [03](https://github.com/shehzad-GRC/GRC-Portfolio/blob/61787f6a3f2ad8073b7c72ec2640b012644e2d06/02%20%E2%80%94%20Security%20Policies) | 🔗 Vendor Risk Assessment | ISO 27001 | 20-question third-party security questionnaire across 5 domains |
 | [04](./04-NIST-CSF-Gap-Assessment/) | 📊 NIST CSF Gap Assessment | NIST CSF | 15 controls evaluated across all 5 functions with maturity scoring |
 | [05](./05-Audit-Finding-Report/) | 🔍 Audit Finding Report | SOC 2 + NIST CSF | 4-part professional finding with observation, risk, evidence, and recommendation |
 
